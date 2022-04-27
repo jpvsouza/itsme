@@ -3,8 +3,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Aqui está na tag header</header>
-      <body>Aqui está na tag body</body>
+      <header className="App-header">Olha aqui, meu amor</header>
+      <body>Aqui depois vai ficar bem bonitão</body>
     </div>
   );
 }
