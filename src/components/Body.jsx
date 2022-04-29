@@ -6,7 +6,7 @@ import Contact from "./Contact";
 
 export default function Body() {
   return(
-    <body>
+    <main>
       <div className='row row-cols-1 row-cols-md-2 g-4'>
         <Resume />
         <About />
@@ -14,6 +14,6 @@ export default function Body() {
         <Projects />
         <Contact />
       </div>
-    </body>
+    </main>
   );
 }

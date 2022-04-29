@@ -2,12 +2,12 @@ export default function Skills() {
   return(
     <div className="card border-dark mb-3">
       <div className="card-body text-dark">
-        <h5 className="card-title">Habilidades</h5>
+        <h5 className="card-title text-center">Habilidades</h5>
         <div>
-          <p className="card-text">Hardskills</p>
+          <p className="card-text text-center">Hardskills</p>
           <div className="">
-            <p className="card-text">Habilidades que eu sei bem</p>
-            <div class="container">
+            <p className="card-text text-center">Habilidades que eu sei bem</p>
+            <div class="container text-center">
               <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"alt="github logo" />
               <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"alt="git logo" />
               <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="html logo" />
@@ -26,8 +26,8 @@ export default function Skills() {
             </div>
           </div>
           <div>
-            <p className="card-text">Habilidades que eu já vi mas não uso com frequencia</p>
-            <div  class="container">
+            <p className="card-text text-center">Habilidades que eu já vi mas não uso com frequencia</p>
+            <div  class="container text-center">
               <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet logo" />
               <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt="dotnet core logo" />
               <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" alt="bootstrap logo" />
@@ -36,7 +36,7 @@ export default function Skills() {
           </div>
         </div>
         <div>
-          <p className="card-text">Softskills</p>
+          <p className="card-text text-center">Softskills</p>
         </div>
       </div>
     </div>
