@@ -14,8 +14,13 @@ code {
 
 .icon {
   width: 70px;
+  padding: 3px;
 }
 
 body {
   padding: 20px;
+}
+
+.bottomMargin {
+  margin-bottom: 10px;
 }

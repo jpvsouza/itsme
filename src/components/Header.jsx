@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <header>
+    <header className='sticky-top'>
       <ul className='nav justify-content-center'>
         <li className='nav-item'>
           <a className='nav-link' href='#resume'>Resumo</a>
@@ -17,7 +17,7 @@ export default function Header() {
           <a className='nav-link' href='#projects'>Projetos</a>
         </li>
         <li className='nav-item'>
-          <a className='nav-link' href='#contac'>Contato</a>
+          <a className='nav-link' href='#contact'>Contato</a>
         </li>
       </ul>
     </header>

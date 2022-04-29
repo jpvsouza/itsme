@@ -1,6 +1,6 @@
 export default function Resume() {
   return(
-  <div class="card border-dark mb-3">
+  <div id="resume" class="card border-dark mb-3">
     <div class="row g-0">
       <div class="col-md-4">
         <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" class="img-fluid rounded-start" alt="..."/>

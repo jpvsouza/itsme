@@ -1,11 +1,11 @@
 export default function Skills() {
   return(
-    <div className="card border-dark mb-3">
+    <div id="skills" className="card border-dark mb-3">
       <div className="card-body text-dark">
         <h5 className="card-title text-center">Habilidades</h5>
         <div>
           <p className="card-text text-center">Hardskills</p>
-          <div className="">
+          <div className="bottomMargin">
             <p className="card-text text-center">Habilidades que eu sei bem</p>
             <div class="container text-center">
               <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"alt="github logo" />
@@ -25,7 +25,7 @@ export default function Skills() {
               <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original-wordmark.svg"alt="heroku logo" />
             </div>
           </div>
-          <div>
+          <div className="bottomMargin">
             <p className="card-text text-center">Habilidades que eu já vi mas não uso com frequencia</p>
             <div  class="container text-center">
               <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet logo" />
@@ -35,7 +35,7 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="bottomMargin">
           <p className="card-text text-center">Softskills</p>
         </div>
       </div>

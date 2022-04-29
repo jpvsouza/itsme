@@ -8,10 +8,6 @@ function App() {
     <div className="p-2 text-dark bg-opacity-50">
       <Header />
       <Body />
-      <body>
-        
-      </body>
-
       <Footer />
     </div>
   );

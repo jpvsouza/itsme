@@ -3,7 +3,7 @@ export default function Contact() {
     <div id='contact' className='card border-top rounded shadow p-3 mb-5 bg-body rounded container text-center'>
       <div className='row'>
         <div className='col'>
-          <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:joaopaulo.velosodesouza@gmail.com" target="_blank" rel="noopener noreferrer">
             <img className="icon" id="linkGoogle" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="link do gmail" />
           </a>
         </div>
