@@ -17,10 +17,42 @@ code {
   padding: 3px;
 }
 
-body {
+#root {
+  background-color: #BCD4DE;
   padding: 20px;
 }
 
 .bottomMargin {
   margin-bottom: 10px;
+}
+
+Header {
+  background-color: #A5CCD1;
+}
+
+.barrinha {
+  padding: 0%;
+}
+
+.nova {
+display: flex;
+width: 100%;
+}
+
+
+.testando {
+  background-color: #A5CCD1;
+  margin: 0px;
+}
+
+main {
+  padding: 20px;
+}
+
+.nav-link {
+  background-color: #A0B9BF;
+  border: 1px solid;
+  border-radius: 3px;
+  border-color: #949BA0;
+  margin: 2px;
 }

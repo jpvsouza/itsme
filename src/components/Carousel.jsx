@@ -1,3 +1,5 @@
+// rafce fazer a funcao
+
 export default function Carousel() {
     return(
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">

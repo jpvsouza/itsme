@@ -3,7 +3,7 @@ import React from 'react';
 export default function Header() {
   return (
     <header className='sticky-top'>
-      <ul className='nav justify-content-center'>
+      <ul className='nav justify-content-center nova'>
         <li className='nav-item'>
           <a className='nav-link' href='#resume'>Resumo</a>
         </li>
