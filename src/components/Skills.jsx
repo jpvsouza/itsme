@@ -1,6 +1,6 @@
 export default function Skills() {
   return(
-    <div id="skills" className="card border-dark mb-3">
+    <div id="skills" className="card border-dark mb-3 shadow-lg">
       <div className="card-body text-dark">
         <h5 className="card-title text-center">Habilidades</h5>
         <div>
