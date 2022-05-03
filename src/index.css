@@ -56,3 +56,7 @@ main {
   border-color: #949BA0;
   margin: 2px;
 }
+#perfil {
+  border-radius: 15px;
+  margin-top: 15px;
+}
