@@ -1,6 +1,6 @@
 export default function Contact() {
   return(
-    <div id='contact' className='card border-top rounded shadow p-3 rounded container text-center'>
+    <div id='contact' className='card border-top rounded shadow p-3 rounded container text-center  bg-dark'>
       <div className='row'>
         <div className='col'>
           <a href="mailto:joaopaulo.velosodesouza@gmail.com" target="_blank" rel="noopener noreferrer">

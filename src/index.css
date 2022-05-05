@@ -18,7 +18,7 @@ code {
 }
 
 #root {
-  background-color: #BCD4DE;
+  background-color: #183642;
   padding: 20px;
 }
 
@@ -41,7 +41,7 @@ width: 100%;
 
 
 .testando {
-  background-color: #A5CCD1;
+  background-color: #183642;
   margin: 0px;
 }
 
@@ -50,7 +50,7 @@ main {
 }
 
 .nav-link {
-  background-color: #A0B9BF;
+  background-color: #313D5A;
   border: 1px solid;
   border-radius: 3px;
   border-color: #949BA0;
@@ -59,4 +59,8 @@ main {
 #perfil {
   border-radius: 15px;
   margin-top: 15px;
+}
+
+.texto {
+  color: #EAEAEA;
 }
