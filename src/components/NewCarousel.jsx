@@ -1,4 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
+import starwarsImage from '../images/star.jpeg';
 
 export default function NewCarousel() {
     return (<Carousel>
@@ -19,14 +20,14 @@ export default function NewCarousel() {
           <a href='https://jp-starwars.herokuapp.com/' rel='noreferrer' target='_blank'>
           <img
             className="d-block w-100"
-            src="https://www.serebii.net/art/th/5.png"
+            src={starwarsImage}
             alt="Second slide"
           />
           </a>
       
           <Carousel.Caption>
-            <h3>Startwars Planets</h3>
-            <p>Aplicação que consome dados de uma API de planetas Starwars.</p>
+            {/* <h3>Startwars Planets</h3> */}
+            {/* <p>Aplicação que consome dados de uma API de planetas Starwars.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
