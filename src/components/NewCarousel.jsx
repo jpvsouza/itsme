@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import starwarsImage from '../images/star.jpeg';
+import recipesImage from '../images/recipes.jpeg';
 
 export default function NewCarousel() {
     return (<Carousel>
@@ -7,7 +8,7 @@ export default function NewCarousel() {
       <a href='https://jp-recipes.herokuapp.com/' rel='noreferrer' target='_blank'>
           <img
             className="d-block w-100"
-            src="https://www.serebii.net/art/th/4.png"
+            src={recipesImage}
             alt="First slide"
           />
       </a>
@@ -30,7 +31,7 @@ export default function NewCarousel() {
             {/* <p>Aplicação que consome dados de uma API de planetas Starwars.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <a  href='https://jp-store.herokuapp.com/' rel='noreferrer' target='_blank'>
           <img
             className="d-block w-100"
@@ -43,6 +44,6 @@ export default function NewCarousel() {
             <h3>Web Store</h3>
             <p>Projeto que consomo API do mercado livre.</p>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
       </Carousel>);
 }
