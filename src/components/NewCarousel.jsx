@@ -1,6 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import starwarsImage from '../images/star.jpeg';
 import recipesImage from '../images/recipes.jpeg';
+import Card from 'react-bootstrap/Card';
 
 export default function NewCarousel() {
     return (<Carousel>
@@ -12,10 +13,10 @@ export default function NewCarousel() {
             alt="First slide"
           />
       </a>
-          <Carousel.Caption>
-            <h3>Recipes App</h3>
-            <p>Projeto de aplicativo de receitas chato de maaaaaais. Feito em grupo e consumindo duas APIs diferentes</p>
-          </Carousel.Caption>
+          <Card.Title>Recipes App</Card.Title>
+          <Card.Text>
+          Projeto de aplicativo de receitas chato de mais. Feito em grupo e consumindo duas APIs diferentes
+          </Card.Text>
         </Carousel.Item>
         <Carousel.Item>
           <a href='https://jp-starwars.herokuapp.com/' rel='noreferrer' target='_blank'>
@@ -25,11 +26,8 @@ export default function NewCarousel() {
             alt="Second slide"
           />
           </a>
-      
-          <Carousel.Caption>
-            {/* <h3>Startwars Planets</h3> */}
-            {/* <p>Aplicação que consome dados de uma API de planetas Starwars.</p> */}
-          </Carousel.Caption>
+          <Card.Title>Starwars Planets</Card.Title>
+          <Card.Text>Aplicação que consome dados de uma API de planetas Starwars.</Card.Text>
         </Carousel.Item>
         {/* <Carousel.Item>
           <a  href='https://jp-store.herokuapp.com/' rel='noreferrer' target='_blank'>
@@ -44,6 +42,10 @@ export default function NewCarousel() {
             <h3>Web Store</h3>
             <p>Projeto que consomo API do mercado livre.</p>
           </Carousel.Caption>
+          <Card.Text>
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.
+          </Card.Text>
         </Carousel.Item> */}
       </Carousel>);
 }

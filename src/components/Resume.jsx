@@ -1,4 +1,4 @@
-import perfil from '../images/João sem fundo.png';
+import perfil from '../images/João com fundo.png';
 
 export default function Resume() {
   return(
