@@ -9,12 +9,12 @@ export default function Contact() {
         </div>
         <div className='col'>
         <a href="https://www.linkedin.com/in/joaopauloveloso/"  target="_blank" rel="noopener noreferrer">
-          <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original-wordmark.svg" alt="link do linkedin" />
+          <img className="icon inverter" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original-wordmark.svg" alt="link do linkedin" />
         </a>
         </div>
         <div className='col'>
         <a href="https://github.com/jpvsouza"  target="_blank" rel="noopener noreferrer">
-          <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="link do github" />
+          <img className="icon inverter" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="link do github" />
         </a>
         </div>
       </div>
