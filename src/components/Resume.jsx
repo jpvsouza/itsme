@@ -10,7 +10,9 @@ export default function Resume() {
       <div class="col-md-8">
         <div class="card-body">
           <h5 class="card-title">Resumo</h5>
-          <p class="card-text">Olá, eu sou o João Paulo Veloso, Sou desenvolvedor full stack, tenho 30 anos e moro em Belo Horizonte.</p>
+          <p class="card-text">Brasileiro, 30 anos, natural de Belo Horizonte/MG e atualmente residente na mesma cidade.
+Graduado em Sistemas de Informação pela Pontifícia Universidade Católica de Minas Gerais.
+Estudante de Desenvolvimento WEB pela Trybe.</p>
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>

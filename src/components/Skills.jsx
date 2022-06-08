@@ -35,9 +35,9 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <div className="bottomMargin">
+        {/* <div className="bottomMargin">
           <p className="card-text text-center">Softskills</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
