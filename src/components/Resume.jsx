@@ -13,7 +13,7 @@ export default function Resume() {
           <p class="card-text">Brasileiro, 30 anos, natural de Belo Horizonte/MG e atualmente residente na mesma cidade.
 Graduado em Sistemas de Informação pela Pontifícia Universidade Católica de Minas Gerais.
 Estudante de Desenvolvimento WEB pela Trybe.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
         </div>
       </div>
     </div>
