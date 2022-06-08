@@ -10,7 +10,7 @@ export default function Resume() {
       <div class="col-md-8">
         <div class="card-body">
           <h5 class="card-title">JOÃO PAULO VELOSO</h5>
-          <p class="card-text">Brasileiro, 30 anos, natural de Belo Horizonte/MG e atualmente residente na mesma cidade. Graduado em Sistemas de Informação pela Pontifícia Universidade Católica de Minas Gerais e estudante de Desenvolvimento WEB pela Trybe. Tem como principais hobbies, praticar esportes, viajar e conhecer novas culturas e lugares.</p>
+          <p class="card-text">Brasileiro, 30 anos, natural de Belo Horizonte/MG e atualmente residente na mesma cidade. Graduado em Sistemas de Informação pela Pontifícia Universidade Católica de Minas Gerais e estudante de Desenvolvimento WEB pela Trybe. Tem como principais hobbies: jogar videogames, praticar esportes, viajar e conhecer novas culturas e lugares.</p>
           {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
         </div>
       </div>
