@@ -4,9 +4,9 @@ export default function Skills() {
       <div className="card-body">
         <h5 className="card-title text-center">Habilidades</h5>
         <div>
-          <p className="card-text text-center">Hardskills</p>
+          {/* <p className="card-text text-center">Hardskills</p> */}
           <div className="bottomMargin">
-            <p className="card-text text-center">Habilidades que eu sei bem</p>
+            <p className="card-text text-center">Habilidades que domino</p>
             <div class="container text-center">
               <img className="icon inverter" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"alt="github logo" />
               <img className="icon inverter" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"alt="git logo" />
@@ -26,7 +26,7 @@ export default function Skills() {
             </div>
           </div>
           <div className="bottomMargin">
-            <p className="card-text text-center">Habilidades que eu já vi mas não uso com frequencia</p>
+            <p className="card-text text-center">Ferramentas que eu já usei mas não uso com frequencia</p>
             <div  class="container text-center">
               <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet logo" />
               <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt="dotnet core logo" />

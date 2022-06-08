@@ -15,7 +15,7 @@ export default function NewCarousel() {
       </a>
           <Card.Title>Recipes App</Card.Title>
           <Card.Text>
-          Projeto de aplicativo de receitas chato de mais. Feito em grupo e consumindo duas APIs diferentes
+          Projeto de aplicativo de receitas. Feito em grupo e consumindo duas APIs diferentes, uma com dados de comidas e uma com dados de drinks.
           </Card.Text>
         </Carousel.Item>
         <Carousel.Item>
